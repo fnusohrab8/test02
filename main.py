@@ -2,7 +2,7 @@ import requests
 
 def main():
     # Prompt the user to enter a city or zip code
-    location = input("Enter a city name or zip code: ")
+    location = input("Enter a city name or area code: ")
     
     # Use a try block to establish a connection to the OpenWeatherMap API
     try:
